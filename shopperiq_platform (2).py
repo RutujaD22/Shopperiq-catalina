@@ -205,7 +205,7 @@ with st.sidebar:
     st.caption("Option 1: Gemini - free at aistudio.google.com")
     gemini_key = st.text_input("Gemini key", type="password", placeholder="AIza...", label_visibility="collapsed")
     st.caption("Option 2: Groq - free at console.groq.com")
-    groq_key = "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"
+    groq_key = "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"
     has_ai = (gemini_key and len(gemini_key) > 10) or (groq_key and len(groq_key) > 10)
     st.caption("AI ready" if has_ai else "Paste a key above to enable AI")
     st.markdown("---")
